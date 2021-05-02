@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Router } from '@reach/router'
 
-function App() {
+import Welcome from './Welcome'
+import Home from './Home'
+import Ac from './Ac'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Welcome path='/' />
+      <Home path='/home' />
+      <Ac path='home/ac' />
+    </Router>
+  )
 }
 
 export default App;
