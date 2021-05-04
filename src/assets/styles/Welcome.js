@@ -1,10 +1,14 @@
 import styled from 'styled-components'
 
 export const WelcomeWrapper = styled.div`
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     background: linear-gradient(180deg, #353A40 0%, #16171B 100%);
     border-radius: 60px;
+    overflow: hidden;
 `;
 
 export const Distance = styled.div`
@@ -21,8 +25,8 @@ export const Distance = styled.div`
 
 export const Unit = styled.div`
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 30px;
+    right: -30px;
     font-family: Gilroy;
     font-style: normal;
     font-weight: 500;
@@ -35,8 +39,6 @@ export const Unit = styled.div`
 `;
 
 export const AcStatus = styled.p`
-    position: absolute;
-    top: 810px;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;

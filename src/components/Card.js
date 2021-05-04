@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const CompanyName = styled.div`
     position: relative;
     text-align: center;
-    top: 168px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -15,7 +14,6 @@ const CompanyName = styled.div`
 const Carname = styled.div`
     position: relative;
     font-style: normal;
-    top: 196px;
     font-weight: 900;
     font-size: 50px;
     line-height: 60px;

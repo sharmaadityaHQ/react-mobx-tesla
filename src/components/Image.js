@@ -5,7 +5,7 @@ const Image = styled.img`
     position: absolute;
     width: 905px;
     height: 300px;
-    left: 1000px;
+    right: -500px;
     top: 440px;
     background: url(${CarIllustration});
 `

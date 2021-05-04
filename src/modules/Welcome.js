@@ -3,7 +3,7 @@ import React from 'react'
 import Image from '../components/Image'
 import { WelcomeWrapper, Distance, Unit, AcStatus } from '../assets/styles/Welcome'
 import Card from '../components/Card'
-import Button from '../components/Button'
+import LockButton from '../components/Button'
 
 const Welcome = () => {
     return ( 
@@ -13,7 +13,7 @@ const Welcome = () => {
                 <Distance>297<Unit>km</Unit></Distance>
                 <Image />
                 <AcStatus>A/C is turned on</AcStatus>
-                <Button />
+                <LockButton />
             </WelcomeWrapper>
         </>
      );
