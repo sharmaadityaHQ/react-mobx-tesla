@@ -4,7 +4,7 @@ const LockButton = styled.button`
     position: absolute;
     width: 128px;
     height: 128px;
-    top: 900px;
+    top: 86vh;
     transform: rotate(-180deg);
     border-radius: 76px;
     background: #006adf;
