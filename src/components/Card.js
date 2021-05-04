@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const CompanyName = styled.p`
+const CompanyName = styled.div`
     position: relative;
     text-align: center;
     top: 168px;
@@ -12,7 +12,7 @@ const CompanyName = styled.p`
     color: #7F8489;
 `
 
-const Carname = styled.p`
+const Carname = styled.div`
     position: relative;
     font-style: normal;
     top: 196px;

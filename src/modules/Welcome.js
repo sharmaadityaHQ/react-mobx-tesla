@@ -10,8 +10,7 @@ const Welcome = () => {
         <>
             <WelcomeWrapper>
                 <Card companyName='Tesla' carName='CyberTruck' />
-                <Distance>297</Distance>
-                <Unit>km</Unit>
+                <Distance>297<Unit>km</Unit></Distance>
                 <Image />
                 <AcStatus>A/C is turned on</AcStatus>
                 <Button />

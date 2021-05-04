@@ -7,9 +7,8 @@ export const WelcomeWrapper = styled.div`
     border-radius: 60px;
 `;
 
-export const Distance = styled.p`
-    postion: absolute;
-    top: 331px;
+export const Distance = styled.div`
+    position: relative;
     font-family: Gilroy;
     font-style: normal;
     font-weight: 250;
@@ -20,9 +19,10 @@ export const Distance = styled.p`
     color: #FDFDFD;
 `;
 
-export const Unit = styled.p`
+export const Unit = styled.div`
     position: absolute;
-    top: 361px;
+    top: 0px;
+    right: 0px;
     font-family: Gilroy;
     font-style: normal;
     font-weight: 500;
