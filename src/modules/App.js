@@ -4,7 +4,7 @@ import { Router } from '@reach/router'
 import Welcome from './Welcome'
 import Home from './Home'
 import Ac from './Ac'
-import Todo from './Todo'
+import Todo from './Todo' //Todo.js is to explore MobX
 
 const App = () => {
   return (
