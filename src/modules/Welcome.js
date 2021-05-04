@@ -6,18 +6,18 @@ import Card from '../components/Card'
 import Button from '../components/Button'
 
 const Welcome = () => {
-    return ( 
+    return (
         <>
             <WelcomeWrapper>
                 <Card companyName='Tesla' carName='CyberTruck' />
                 <Distance>297<Unit>km</Unit></Distance>
                 <Image />
                 <AcStatus>A/C is turned on</AcStatus>
-                <Button />
+                {/* <Button /> */}
             </WelcomeWrapper>
         </>
-     );
+    );
 }
- 
+
 export default Welcome;
 
