@@ -5,9 +5,9 @@ const Image = styled.div`
     position: absolute;
     width: 400px;
     height: 268px;
-    /*right: -500px;*/
-    left: 52vw;
-    top: 47vh;
+    left: 25px;
+    top: 300px;
+    justify-content: center;
     background: url(${CarIllustration});
 `
 

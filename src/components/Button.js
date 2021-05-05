@@ -1,15 +1,15 @@
 import styled from 'styled-components'
 
 const LockButton = styled.button`
-    position: absolute;
-    width: 128px;
-    height: 128px;
-    top: 86vh;
-    transform: rotate(-180deg);
-    border-radius: 76px;
-    background: #006adf;
-    box-shadow:  10px 10px 19px #00448f,
-                -10px -10px 19px #0090ff;
+    margin-top: 20px;
+    margin-left: 125px;
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+    border-radius: 40px;
+    border-style: none;
+    background: #3165cf;
+    box-shadow: inset 7px 7px 13px #2a56b0, inset -7px -7px 13px #3874ee;
 `
 
 

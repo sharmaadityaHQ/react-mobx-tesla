@@ -6,7 +6,7 @@ import Card from '../components/Card'
 import LockButton from '../components/Button'
 
 const Welcome = () => {
-    return ( 
+    return (
         <>
             <WelcomeWrapper>
                 <Card companyName='Tesla' carName='CyberTruck' />
@@ -16,8 +16,8 @@ const Welcome = () => {
                 <LockButton />
             </WelcomeWrapper>
         </>
-     );
+    );
 }
- 
+
 export default Welcome;
 
