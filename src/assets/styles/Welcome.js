@@ -4,7 +4,8 @@ export const WelcomeWrapper = styled.div`
     height: 100%;
     width: 100%;
     position: absolute;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     background: linear-gradient(180deg, #353A40 0%, #16171B 100%);
 `;
 

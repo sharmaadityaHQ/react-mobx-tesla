@@ -13,6 +13,7 @@ const Welcome = () => {
                 <Distance>297<Unit>km</Unit></Distance>
                 <Image />
                 <AcStatus>A/C is turned on</AcStatus>
+                <div></div>
                 <LockButton />
             </WelcomeWrapper>
         </>
