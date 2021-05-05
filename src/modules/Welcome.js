@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Image from '../components/Image'
-import { WelcomeWrapper, Distance, Unit, AcStatus } from '../assets/styles/Welcome'
+import { WelcomeWrapper, Distance, Unit, AcStatus, UnlockContent } from '../assets/styles/Welcome'
 import Card from '../components/Card'
 import LockButton from '../components/Button'
 
@@ -15,6 +15,7 @@ const Welcome = () => {
                 <AcStatus>A/C is turned on</AcStatus>
                 <div></div>
                 <LockButton />
+                <UnlockContent>Tap to open the car</UnlockContent>
             </WelcomeWrapper>
         </>
     );

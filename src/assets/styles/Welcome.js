@@ -40,8 +40,19 @@ export const AcStatus = styled.div`
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 29px;
     text-align: center;
     color: #7F8489;
+`
+
+export const UnlockContent = styled.div`
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 460;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E6E6E6;
 `
